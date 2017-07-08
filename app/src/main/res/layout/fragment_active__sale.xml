@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.quickie.quickie.fragments.ActiveSale_Fragment">
+
+    <fragment
+        android:id="@+id/fragment_a"
+        android:name="com.quickie.quickie.fragments.FragmentA"
+        android:layout_width="450dp"
+        android:layout_height="479dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        tools:layout="@layout/fragment_a"
+        android:layout_weight="0.6">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_b"
+       android:name="com.quickie.quickie.fragments.Fragment_cart"
+        android:layout_width="316dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.4"
+        tools:layout="@layout/fragment_cart">
+
+    </fragment>
+
+
+</LinearLayout>

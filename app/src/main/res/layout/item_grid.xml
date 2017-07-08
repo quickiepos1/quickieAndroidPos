@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:elevation="4dp"
+    android:padding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  >
+
+
+        <TextView
+            android:id="@+id/item_grid_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:text="CHIPS"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_grid_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_grid_name"
+            android:layout_marginTop="10dp"
+            android:text="Ksh 80"
+            android:textColor="#CC0033"
+            android:textSize="15dp"
+            android:layout_alignLeft="@+id/item_grid_name"
+            android:layout_alignStart="@+id/item_grid_name" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
